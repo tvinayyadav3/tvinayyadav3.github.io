@@ -1,13 +1,15 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>HTML tags</title>
 </head>
+
 <body>
   <form>
-    <input type="text" value="India" placeholder="Username" autofocus required readonly disabled ><br>
+    <input type="text" value="India" placeholder="Username" autofocus required readonly disabled><br>
     <input type="text" placeholder="Password"><br>
     <input type="number" min="3" max="10" placeholder="phone"> <!-- required max="10" -->
     <input type="email" multiple><br>
@@ -22,13 +24,33 @@
     <input type="range" style="color:brown"><br>
     <input type="radio" name="Batch">Batch A
     <input type="radio" name="Batch" checked>Batch B <br>
-    <input type="checkbox" checked>Java
+    <input type="checkbox" id="27" checked>Java
+    <label for="27">Java</label>
     <input type="checkbox">Python <br>
-    <textarea rows="4" cols="5"></textarea>
+    <textarea name="" id=""></textarea>
+    <textarea rows="4" cols="5"></textarea><br>
+    <optgroup>
+      <option value="kingdom">rajyam</option>
+      <option value="king">raju</option>
+      <option value="queen">rani</option>
+    </optgroup><br>
+    <select name="" id="">
+      <optgroup>   without LAbel & select
+        <option value="" >King</option>
+        <option value="">Queen</option>
+      </optgroup>
+    </select><br>
+    <select multiple>
+    <optgroup label="Rajyam"> with Label
+      <option value="">King</option>
+      <option value="sdf">Queen</option>
+      <option value="">Mantri</option>
+    </optgroup>
+  </select><br>
     <select multiple>
       <optgroup label="India">
-        <option >Telangana</option>
-        <option >Andhra</option>
+        <option selected>Telangana</option>
+        <option>Andhra</option>
       </optgroup>
       <optgroup label="USA">
         <option>Florida</option>
@@ -36,7 +58,7 @@
       </optgroup>
       <option>India</option>
       <option selected>USA</option>
-      <option >Austrila</option>
+      <option selected>Austrila</option>
     </select><br>
     <input type="checkbox" id="543">
     <label for="543">Remember Me</label>
@@ -49,4 +71,5 @@
     </p>
   </form>
 </body>
+
 </html>
