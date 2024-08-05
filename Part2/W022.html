@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>CSS EXTERNAL STYLYING</title>
+  <style>
+    h1 {
+      color: rgb(0, 0, 0);
+    }
+
+    #p1 {
+      background-color: rgb(172, 10, 10);
+    }
+
+    p {
+      background-color: yellow;
+    }
+
+    div p {
+      background-color: rgb(43, 226, 52);
+    }
+
+    div h3 {
+      background-color: aqua;
+    }
+
+    .c1 .c2 {
+      color: rgb(251, 0, 0);
+    }
+    .c3{
+      background-color: black;
+    }
+    .c3, .c4{
+      color: blueviolet;
+      /* background-color: aliceblue;  */
+    }
+    .c5{
+      color: yellow;
+      background-color: brown;
+    }
+  </style>
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+  <h1>HELLO</h1>
+  <p>This is a para</p>
+  <p id="p1">This is para 2</p>
+  <div>
+    <p>this is div para 1</p>
+    <p>This is div para 2</p>
+    <h3>KING</h3>
+  </div>
+  <div class="c1">
+    <p class="c2">This is for c1 and c2</p>
+    <h2 class="c2">IUYTRE</h2>
+    <p></p>
+  </div>
+  <p class="c3">THis is c3 and c4</p>
+  <div class="c3">
+    <p class="c4" >Yhis is c3 c4 para in div</p>
+  </div>
+  <div class="c3,c5">
+    <P>This is para for c3 and c5 div</P>
+  </div>
+</body>
+</html>
+
+
+
+
+<!-- if the LINK is first tag then link style is used by the code -->
+<!-- if the STYLE tag isn first line which is above the LINK style then the STYLE tag code is executed -->
