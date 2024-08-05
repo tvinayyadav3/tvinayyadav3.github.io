@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <style>
+   /* [class*="t"]{
+      background-color: yellow; /*this works if the word consists a t in it*/
+    }*/
+    [class^="t"]{
+      background-color: yellow; /*this works if 1st letter is "t"*/
+    }
+    [class$="t"]{
+      background-color: yellow; /*this works if the last letter is "t"*/
+    }
+  </style>
+</head>
+<body>
+  <div class="tree">This is class tree</div>
+  <div class="strike">this is class stroke</div>
+  <div class="best">this is best class</div>
+</body>
+</html>

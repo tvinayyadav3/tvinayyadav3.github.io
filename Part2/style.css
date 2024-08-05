@@ -3,6 +3,8 @@ h1{
   background-color: rgb(43, 226, 171);     <!-- we are connecting this .css file to W022.html file with using "link" tag in the head -->
 }
 
-
+body{
+    margin: 0px;
+}
 /* we can connect it as many as files we need just by using the link tag */
-/* this should be defininetly in head only  */
+/* this should be defininetly in head only  */s
