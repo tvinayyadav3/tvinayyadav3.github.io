@@ -9,7 +9,7 @@ header {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  padding: 5px 20px;
+  padding: 10px 100px;
   background-color: #000000;
   background-image: url(C:\Users\vinayyadav\Downloads\Netflix-Background.jpg);
   background-image: url('path-to-your-image.jpg'); /* Path to your background image */
@@ -84,12 +84,12 @@ nav a {
 }
 
 .h1{
-  display: flex;
-  justify-content: center;
-  /* padding: 100px 10px ; */
-  text-align: center;
   /* display: flex; */
-  justify-content: space-between;
+  /* justify-content: center; */
+  /* padding: 100px 10px ; */
+  /* text-align: center; */
+  /* display: flex; */
+  /* justify-content: space-between; */
 
 }
 
