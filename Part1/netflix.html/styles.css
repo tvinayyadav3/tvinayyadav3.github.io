@@ -11,7 +11,7 @@ header {
   align-items: center;
   padding: 5px 20px;
   background-color: #000000;
-  background-image: url("C:\Users\vinay yadav\Downloads\Netflix-Background.jpg");
+  background-image: url(C:\Users\vinayyadav\Downloads\Netflix-Background.jpg);
   background-image: url('path-to-your-image.jpg'); /* Path to your background image */
   background-size: cover; /* Cover the entire header element */
   background-position: center; /* Center the image */
@@ -57,7 +57,7 @@ nav a {
   /* text-align: center; */
   /* justify-content: center; */
   padding: 100px 20px; 
-  background-image: url('hero-background.jpg');
+  background-image: url("C:\Users\vinay yadav\Downloads\Netflix-Background.jpg");
   /* background-size: cover; */
   /* background-position: center; */
   text-align: center;
@@ -81,6 +81,16 @@ nav a {
   color: #fff;
   cursor: pointer;
   border-radius: 5px;
+}
+
+.h1{
+  display: flex;
+  justify-content: center;
+  /* padding: 100px 10px ; */
+  text-align: center;
+  /* display: flex; */
+  justify-content: space-between;
+
 }
 
 .content {
