@@ -1,7 +1,7 @@
 body {
   margin: 0;
   font-family: Arial, sans-serif;
-  background-color: #141414;
+  background-color: #000000;
   color: #fff;
 }
 
@@ -9,13 +9,19 @@ header {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  padding: 10px 20px;
-  background-color: #141414;
+  padding: 5px 20px;
+  background-color: #000000;
+  background-image: url("C:\Users\vinay yadav\Downloads\Netflix-Background.jpg");
+  background-image: url('path-to-your-image.jpg'); /* Path to your background image */
+  background-size: cover; /* Cover the entire header element */
+  background-position: center; /* Center the image */
+  background-repeat: no-repeat; /* Prevent repeating the image */
 }
 
-.logo {
-  font-size: 24px;
-  font-weight: bold;
+img {
+  
+  height: 100px;
+  width: 130px;
 }
 
 nav ul {
@@ -23,23 +29,38 @@ nav ul {
   display: flex;
   gap: 15px;
 }
-
 nav a {
   text-decoration: none;
   color: #fff;
 }
 
-.user img {
-  width: 30px;
-  border-radius: 50%;
+.lang{
+  height: 30px;
+  width: 70px;
+  border-radius: 5px;
+  /* display: flex;
+  justify-content: flex-end; */
+  
+  
 }
 
+/* .user{
+  background-color: red;
+
+  /* color: white;   
+  width: 60px;
+  border-radius: 5px;
+} */
+
 .hero {
-  text-align: center;
+  /* display: flex; */
+  /* text-align: center; */
+  /* justify-content: center; */
   padding: 100px 20px; 
   background-image: url('hero-background.jpg');
-  background-size: cover;
-  background-position: center;
+  /* background-size: cover; */
+  /* background-position: center; */
+  text-align: center;
 }
 
 .hero h1 {
@@ -49,16 +70,17 @@ nav a {
 
 .hero p {
   font-size: 24px;
-  margin-bottom: 20px;
+  margin-bottom: 30px;
 }
 
-.hero button {
+.hero button, .email {
   padding: 10px 20px;
   font-size: 18px;
-  background-color: #e50914;
+  /* background-color: #e50914; */
   border: none;
   color: #fff;
   cursor: pointer;
+  border-radius: 5px;
 }
 
 .content {
