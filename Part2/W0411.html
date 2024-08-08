@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <style>
+    #div1{
+      /* border: 1px solid blue; */
+      font-size: 60px;
+      width:200px;
+      height: 250px;
+      text-align: center;
+      margin: auto;
+/*    
+      left:calc(100%-210px);
+      left: 100px;
+      right: 0px; */
+      /* left: calc(100% - 210px); */
+      /* right: calc(100% - 210px);  here in this calc with should be almost is equals to the width given to that div */
+      /* width: max(90%,300px); it will select max value from the paranthasis first then goes for the othrt value based on the size of the screen */
+      width: min(50%,500px); /*it takes the min px with in the giben braces and displays it the max it can go is the px we mentioned*/
+      border:1px solid red;
+      background-color: rgb(255, 221, 0);
+      box-shadow: 6px 6px 6px 6px royalblue ;
+      text-shadow: 2px 3px green;
+      box-shadow: 6px 6px 6px 6px royalblue inset;
+    }
+  </style>
+</head>
+<body>
+  <div id="div1">hello world</div>
+</body>
+</html>

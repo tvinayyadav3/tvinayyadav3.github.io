@@ -52,6 +52,15 @@ input{
     font-size: 15px;
     border-radius: 8px;
 }
+.inputuser{
+  display: flex;
+  text-align: left;
+  justify-content: flex-start;
+  justify-items: flex-start;
+  flex-direction: row;
+  display: inline-block;
+
+}
 .button {
     background-color: rgb(24, 119, 242);
     border-radius: 5px;
@@ -116,8 +125,10 @@ footer{
         </div>
         <div class="box">
             <div >
-                <input type="email" placeholder="Enter address or phone number">
-                <input type="password" placeholder="Enter your password">
+                <div class="inputuser">
+                  <input type="email" placeholder="Enter address or phone number">  
+                  <input type="password" placeholder="Enter your password">
+                </div>
                 <button class="button">Log In</button>
                 <a href="https://www.facebook.com/login/identify/?ctx=recover&ars=facebook_login&from_login_screen=0" target="_blank" style="text-decoration: none;">Forgotten Password?</a>
                 <hr>

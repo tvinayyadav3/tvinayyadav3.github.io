@@ -16,6 +16,7 @@
       /* display: inline; */
       /* flex-direction: row; */
       /* margin: 100px; */
+     
 
 
     }
@@ -24,8 +25,33 @@
       color: black;
       text-decoration: none;
     }
-
-    /* a{ */
+    .img1{
+      position:relative;
+      background-color: white;
+      justify-content: space-around;
+      margin-top: 20px;
+      margin-bottom: 20px;
+      /* margin: 150px; */
+      /* left: 0px;
+      top: 0px; */
+      /* z-index; */
+    }
+    .img2{
+      position:relative;
+      background-color: white;
+      justify-content: space-around;
+      margin-top: 20px;
+      margin-bottom: 20px;
+      /* margin: 150px; */
+    }
+    .img3{
+      position:relative;
+      background-color: white;
+      justify-content: space-around;
+      margin-top: 20px;
+      margin-bottom: 20px;
+      /* margin: 150px; */
+    }
     /* color:black; */
     /* } */
 
@@ -52,6 +78,12 @@
       display:flex;
       justify-content: center;
     }
+
+    .p1{
+      position:absolute;
+      justify-content:center;
+      align-items:center;
+    }
   </style>
 </head>
 
@@ -65,14 +97,25 @@
     </div>
   </div>
   <hr>
+  <div class="">
+    <p>Your Journey with Student Tribe Doesn't End Here – It's Just the Beginning. Stay Curious, Stay Connected, Stay Ahead!</p>
+    <img src="https://studenttribe.in/wp-content/uploads/2023/12/cwok_casual_27-600x600.png" alt="">
+  </div>
   <div class="pics">
-    <img src="https://picsum.photos/536/354">
-    <img src="https://picsum.photos/seed/picsum/536/354">
-    <img src="https://picsum.photos/id/1084/536/354?grayscale">
-
+    <div class="img1">
+      <p class="p1">HTML</p>
+      <img src="https://picsum.photos/536/354">
+    </div >
+    <div class="img2">
+      <p class="p1">CSS</p>
+      <img src="https://picsum.photos/seed/picsum/536/354">
+    </div>
+    <div class="img3">
+      <p class="p1">JAVASCRIPT</p>
+      <img src="https://picsum.photos/id/1084/536/354?grayscale">
+    </div>
   </div>
   
-
   <hr>
   <div class="footer">
     <P>
@@ -80,5 +123,4 @@
     </P>
   </div>
 </body>
-
 </html>
