@@ -38,10 +38,7 @@ nav ul {
   display: flex;
   gap: 15px;
 }
-nav a {
-  text-decoration: none;
-  color: #fff;
-}
+
 
 .lang{
   height: 30px;
@@ -78,9 +75,8 @@ nav a {
 .email{
   border: 1px solid rgb(255, 255, 255);
   color: white;
-  color: aquamarine;
+  
   background: transparent;
-  color: white;
   border-color: #ffffff;
 }
 
@@ -89,6 +85,7 @@ nav a {
 .hero h1 {
   font-size: 48px;
   margin-bottom: 10px;
+  /* height: 400px; */
 }
 
 .hero p {
@@ -107,12 +104,12 @@ nav a {
 } */ 
 
 .h1{
-  /* display: flex; */
-  /* justify-content: center; */
-  /* padding: 100px 10px ; */
-  /* text-align: center; */
-  /* display: flex; */
-  /* justify-content: space-between; */
+  display: flex; 
+  justify-content: center;
+  text-align: center;
+  display: flex;
+  justify-content: space-between;
+  height: 400px;
 
 }
 
@@ -143,6 +140,11 @@ footer {
   background-color: #141414;
 }
 
+.img1{
+  /* height: 200px;
+  width: 200px; */
+  /* image-rendering: pixelated; */
+}
     </style>
 </head>
 
@@ -172,17 +174,27 @@ footer {
         </section>
       </div>  
     <header class="h1">
-        <p><h1>Enjoy on your TV</h1></p></p>
-        <p><h3>Watch on smart TVs, PlayStation, Xbox, Chromecast, Apple TV, Blu-ray players and more.</h3></p>
+      <div>
+        <p><h1 style="font-size: 40px;">Enjoy on your TV</h1></p></p>
+        <p><h3 style>Watch on smart TVs, PlayStation, Xbox, Chromecast, Apple TV, Blu-ray players and more.</h3></p>
+      </div> 
+      <div class="img1">
         <p><img src="https://assets.nflxext.com/ffe/siteui/acquisition/ourStory/fuji/desktop/tv.png" alt=""></p>
+      </div> 
     </header>
-        <section class="content">
-            <h2>Trending Now</h2>
-            <div class="movie-list">
-                <!-- Movie items will go here -->
-                <div class="movie-item">
-                  <img src="" alt="">   
-                  Movie 1</div>
+        <header class="h1">
+          <div class="img1">
+            <p><img src="https://assets.nflxext.com/ffe/siteui/acquisition/ourStory/fuji/desktop/mobile-0819.jpg" alt=""  ></p>
+           </div> 
+          <div>
+            <p><h1 style="font-size: 40px;">Download your shows to watch offline</h1></p>
+            <p><h4>Save your favourites easily and always have something to watch.</h4></p>
+          </div> 
+          
+          </header> 
+            <!-- <div class="movie-list">
+                Movie items will go here
+                <div class="movie-item"> Movie 1</div>
                 <div class="movie-item">Movie 2</div>
                 <div class="movie-item">Movie 3</div>
                 <div class="movie-item">Movie 4</div>
@@ -192,7 +204,7 @@ footer {
                 <div class="movie-item">Movie 8</div>
                 <div class="movie-item">Movie 9</div>
                 <div class="movie-item">Movie 10</div>
-            </div>
+            </div> -->
         </section>
     </main>
     <footer>
