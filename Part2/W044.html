@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <style>
+    .c{
+      /* transform: translate(100px,100px); */
+      /* transform: rotate(30deg); */
+      /* transform: scale(1,1.5); */
+      /* transform: scaleX(1.2); */
+      /* transform: scaleY(1); */
+      /* transform: skew(10deg); */
+      /* transform: skewX(10deg); */
+      /* transform: skewY(20deg); */
+      /* transform: matrix(scaleX,skewY,skewX,scaleY); */
+      position: relative;
+      animation: rotateImage 5s linear infinite;
+    }
+    @keyframes rotateImage{
+      from{
+        left: 0px;
+        transform: rotate(0deg);
+      }
+      to{
+        left: 100%;
+        transform: rotate(360deg);
+      }
+    }
+    
+    
+  </style>
+</head>
+<body>
+  <img src="https://picsum.photos/536/354" class="c">
+</body>
+</html>
