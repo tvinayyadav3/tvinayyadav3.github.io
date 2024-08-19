@@ -121,6 +121,19 @@
       margin-top: 20px;
       margin-bottom: 20px;
       margin: 150px;
+      animation-name: slide;
+      animation-duration:5s;
+      animation-iteration-count: infinite;
+      animation-direction: alternate;
+
+    }
+    @keyframes slide{
+      from{
+        left: 0px;
+      }
+      to{
+        left: 360px;
+      }
     }
   
     .footer{
@@ -138,9 +151,9 @@
       /* text-align: start; */
       /* justify-content: start; */
     }
-    .pics:hover{
-      
-    }
+    /* .pics:hover{
+      box-shadow: 5px 5px 10px 10px;
+    } */
   </style>
 </head>
 
