@@ -1,0 +1,435 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>PVR</title>
+  <link rel="stylesheet" href="style.css">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+</head>
+
+<body>
+  <nav class="fnav">
+    <div class="div1">
+      <div class="logo">
+        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT49yqjXhawzxqVSTmSE6MkCFhi-FExRdl6cQ&s" alt="">
+      </div>
+
+
+      <ul>
+        <li><a href="#"><svg width="17" height="15" viewBox="0 0 17 15" fill="none" xmlns="http://www.w3.org/2000/svg">
+              <path id="Vector"
+                d="M6.66667 14.6667V9.66667H10V14.6667H14.1667V8H16.6667L8.33333 0.5L0 8H2.5V14.6667H6.66667Z"
+                fill="black" />
+            </svg> Home</a></li>
+        <li><a href="#">
+            <svg width="17" height="14" viewBox="0 0 17 14" fill="none" xmlns="http://www.w3.org/2000/svg">
+              <path id="Vector"
+                d="M15 6.99992C15 6.08325 15.75 5.33325 16.6667 5.33325V1.99992C16.6667 1.08325 15.9167 0.333252 15 0.333252H1.66667C0.75 0.333252 0.00833333 1.08325 0.00833333 1.99992V5.33325C0.925 5.33325 1.66667 6.08325 1.66667 6.99992C1.66667 7.91658 0.925 8.66658 0 8.66658V11.9999C0 12.9166 0.75 13.6666 1.66667 13.6666H15C15.9167 13.6666 16.6667 12.9166 16.6667 11.9999V8.66658C15.75 8.66658 15 7.91658 15 6.99992ZM11.3167 10.9999L8.33333 9.08325L5.35 10.9999L6.25 7.56659L3.50833 5.32492L7.04167 5.11658L8.33333 1.83325L9.61667 5.12492L13.15 5.33325L10.4083 7.57492L11.3167 10.9999Z"
+                fill="black" />
+            </svg> Showtimings</a></li>
+        <li><a href="#"><svg width="17" height="14" viewBox="0 0 17 14" fill="none" xmlns="http://www.w3.org/2000/svg">
+              <path id="Vector"
+                d="M13.3333 0.333252L15 3.66659H12.5L10.8333 0.333252H9.16667L10.8333 3.66659H8.33333L6.66667 0.333252H5L6.66667 3.66659H4.16667L2.5 0.333252H1.66667C0.75 0.333252 0.00833333 1.08325 0.00833333 1.99992L0 11.9999C0 12.9166 0.75 13.6666 1.66667 13.6666H15C15.9167 13.6666 16.6667 12.9166 16.6667 11.9999V0.333252H13.3333Z"
+                fill="black" />
+            </svg> Cinemas</a></li>
+        <li><a href="#"><svg width="19" height="18" viewBox="0 0 19 18" fill="none" xmlns="http://www.w3.org/2000/svg">
+              <g id="discount 1" clip-path="url(#clip0_7750_921)">
+                <g id="Group">
+                  <g id="Group_2">
+                    <path id="Vector"
+                      d="M17.1365 9.23314C17.0641 9.08496 17.0641 8.91502 17.1365 8.76687L17.8078 7.3935C18.1816 6.62882 17.8855 5.7174 17.1336 5.31848L15.7833 4.602C15.6376 4.52473 15.5377 4.3872 15.5092 4.22481L15.2451 2.71911C15.098 1.88078 14.3226 1.31744 13.48 1.43666L11.9664 1.65076C11.803 1.67382 11.6415 1.6213 11.523 1.50665L10.4243 0.443815C9.81258 -0.148002 8.85423 -0.148037 8.24252 0.443815L7.14382 1.50676C7.02527 1.62144 6.86373 1.67385 6.7004 1.65086L5.18682 1.43676C4.34396 1.31748 3.56877 1.88089 3.42171 2.71922L3.15762 4.22485C3.1291 4.38727 3.02923 4.52476 2.88357 4.60207L1.53323 5.31855C0.781383 5.71743 0.485228 6.62892 0.859008 7.3936L1.53031 8.76694C1.60273 8.91512 1.60273 9.08506 1.53031 9.23321L0.858972 10.6065C0.485193 11.3712 0.781348 12.2826 1.5332 12.6816L2.88354 13.398C3.02923 13.4753 3.1291 13.6128 3.15762 13.7752L3.42171 15.2809C3.55558 16.0441 4.20998 16.5793 4.96207 16.5792C5.03614 16.5792 5.11131 16.574 5.18686 16.5634L6.70043 16.3493C6.86366 16.3261 7.02531 16.3787 7.14385 16.4934L8.24252 17.5562C8.54844 17.8521 8.94086 18.0001 9.33341 18C9.72585 18 10.1185 17.8521 10.4243 17.5562L11.523 16.4934C11.6415 16.3787 11.8031 16.3263 11.9664 16.3493L13.48 16.5634C14.323 16.6826 15.098 16.1192 15.2451 15.2809L15.5092 13.7753C15.5377 13.6128 15.6376 13.4754 15.7833 13.398L17.1336 12.6816C17.8855 12.2827 18.1816 11.3712 17.8078 10.6065L17.1365 9.23314ZM7.25706 4.32828C8.30653 4.32828 9.16037 5.18211 9.16037 6.23159C9.16037 7.28107 8.30653 8.1349 7.25706 8.1349C6.20758 8.1349 5.35374 7.28107 5.35374 6.23159C5.35374 5.18211 6.20758 4.32828 7.25706 4.32828ZM6.27466 12.7928C6.1733 12.8942 6.04045 12.9448 5.90763 12.9448C5.77481 12.9448 5.64192 12.8942 5.5406 12.7928C5.33789 12.5901 5.33789 12.2614 5.5406 12.0587L12.3921 5.20718C12.5948 5.00447 12.9235 5.00447 13.1262 5.20718C13.3289 5.40989 13.3289 5.73856 13.1262 5.94127L6.27466 12.7928ZM11.4097 13.6718C10.3602 13.6718 9.50638 12.8179 9.50638 11.7685C9.50638 10.719 10.3602 9.86514 11.4097 9.86514C12.4592 9.86514 13.313 10.719 13.313 11.7685C13.313 12.8179 12.4592 13.6718 11.4097 13.6718Z"
+                      fill="black" />
+                  </g>
+                </g>
+                <g id="Group_3">
+                  <g id="Group_4">
+                    <path id="Vector_2"
+                      d="M11.4097 10.9033C10.9326 10.9033 10.5445 11.2914 10.5445 11.7684C10.5445 12.2455 10.9326 12.6336 11.4097 12.6336C11.8867 12.6336 12.2748 12.2455 12.2748 11.7684C12.2748 11.2914 11.8867 10.9033 11.4097 10.9033Z"
+                      fill="black" />
+                  </g>
+                </g>
+                <g id="Group_5">
+                  <g id="Group_6">
+                    <path id="Vector_3"
+                      d="M7.25703 5.36646C6.77999 5.36646 6.39191 5.75454 6.39191 6.23158C6.39191 6.70861 6.77999 7.09673 7.25703 7.09673C7.73406 7.09673 8.12218 6.70864 8.12218 6.23158C8.12215 5.75458 7.73406 5.36646 7.25703 5.36646Z"
+                      fill="black" />
+                  </g>
+                </g>
+              </g>
+              <defs>
+                <clipPath id="clip0_7750_921">
+                  <rect width="18" height="18" fill="white" transform="translate(0.333374)" />
+                </clipPath>
+              </defs>
+            </svg> Offers</a></li>
+        <li><a href="#"><svg width="20" height="20" viewBox="0 0 20 20" fill="none" xmlns="http://www.w3.org/2000/svg">
+              <path
+                d="M3.2504 14.8853L6.5096 11.6261L8.86661 13.9831L12.6759 10.1739L14.1699 11.668V7.5013H10.0033L11.4974 8.99538L8.86661 11.6261L6.5096 9.26904L2.38804 13.3906C1.92649 12.3551 1.66992 11.2082 1.66992 10.0013C1.66992 5.39893 5.40089 1.66797 10.0033 1.66797C14.6056 1.66797 18.3366 5.39893 18.3366 10.0013C18.3366 14.6037 14.6056 18.3346 10.0033 18.3346C7.22516 18.3346 4.76456 16.9752 3.2504 14.8853Z"
+                fill="black" />
+            </svg> Investor Section</a></li>
+        <li><a href="#"><svg width="17" height="16" viewBox="0 0 17 16" fill="none" xmlns="http://www.w3.org/2000/svg">
+              <path id="Vector"
+                d="M3.1875 15.8333L4.54167 9.97917L0 6.04167L6 5.52083L8.33333 0L10.6667 5.52083L16.6667 6.04167L12.125 9.97917L13.4792 15.8333L8.33333 12.7292L3.1875 15.8333Z"
+                fill="black" />
+            </svg>
+            Passport</a></li>
+        <li><a href="#"><svg width="16" height="10" viewBox="0 0 16 10" fill="none" xmlns="http://www.w3.org/2000/svg">
+              <path d="M0.5 10H15.5V8.33333H0.5V10ZM0.5 5.83333H15.5V4.16667H0.5V5.83333ZM0.5 0V1.66667H15.5V0H0.5Z"
+                fill="black" />
+            </svg>
+            More <svg width="10" height="6" viewBox="0 0 10 6" fill="none" xmlns="http://www.w3.org/2000/svg">
+              <path
+                d="M4.99999 3.78145L8.29999 0.481445L9.24266 1.42411L4.99999 5.66678L0.757324 1.42411L1.69999 0.481445L4.99999 3.78145Z"
+                fill="black" />
+            </svg>
+          </a>
+
+          <div class="moredd">
+            <ul>
+              <li><a href="#">Gift Cards </a></li>
+              <li><a href="#">ODR Portal</a></li>
+              <li><a href="#">Bulk Gift Cards</a></li>
+              <li><a href="#">Advertise</a></li>
+              <li><a href="#">Merchandise</a></li>
+              <li><a href="#">Curated Shows</a></li>
+              <hr>
+              <li><a href="#">Privilage Plus</a></li>
+              <li><a href="#">About Us</a></li>
+              <li><a href="#">FAQs</a></li>
+              <li><a href="#">Carrer</a></li>
+              <li><a href="#">Feedback</a></li>
+              <li><a href="#"></a>News</li>
+
+            </ul>
+
+          </div>
+
+
+        </li>
+      </ul>
+      <div class="sll">
+        <input type="search" placeholder="search">
+        <button>
+          <?xml version="1.0" encoding="UTF-8"?>
+          <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="20px" height="20px"
+            viewBox="0 0 20 20" version="1.1">
+            <g id="surface1">
+              <path style=" stroke:none;fill-rule:nonzero;fill:rgb(0%,0%,0%);fill-opacity:1;"
+                d="M 10 11.390625 C 9.90625 11.390625 9.8125 11.386719 9.722656 11.375 C 9.773438 11.382812 9.828125 11.386719 9.878906 11.394531 C 9.703125 11.371094 9.539062 11.320312 9.375 11.257812 C 9.421875 11.277344 9.46875 11.296875 9.515625 11.316406 C 9.40625 11.265625 9.296875 11.210938 9.199219 11.144531 C 9.171875 11.125 9.140625 11.105469 9.117188 11.085938 C 9.03125 11.027344 9.226562 11.179688 9.15625 11.117188 C 9.105469 11.074219 9.058594 11.03125 9.015625 10.984375 C 8.96875 10.945312 8.933594 10.898438 8.890625 10.855469 C 8.8125 10.761719 8.972656 10.96875 8.914062 10.882812 C 8.898438 10.859375 8.878906 10.835938 8.863281 10.8125 C 8.792969 10.710938 8.734375 10.597656 8.6875 10.484375 C 8.703125 10.53125 8.726562 10.578125 8.742188 10.625 C 8.675781 10.464844 8.628906 10.296875 8.605469 10.125 C 8.613281 10.175781 8.617188 10.226562 8.625 10.28125 C 8.601562 10.097656 8.601562 9.917969 8.625 9.738281 C 8.617188 9.789062 8.613281 9.84375 8.605469 9.894531 C 8.632812 9.71875 8.679688 9.554688 8.742188 9.390625 C 8.726562 9.4375 8.703125 9.484375 8.6875 9.53125 C 8.734375 9.421875 8.789062 9.3125 8.855469 9.214844 C 8.875 9.1875 8.894531 9.15625 8.914062 9.128906 C 8.972656 9.046875 8.820312 9.242188 8.882812 9.167969 C 8.925781 9.121094 8.96875 9.074219 9.015625 9.03125 C 9.054688 8.984375 9.101562 8.949219 9.144531 8.90625 C 9.234375 8.828125 9.03125 8.988281 9.117188 8.929688 C 9.140625 8.914062 9.164062 8.894531 9.1875 8.878906 C 9.289062 8.808594 9.398438 8.75 9.515625 8.699219 C 9.46875 8.71875 9.421875 8.738281 9.375 8.757812 C 9.535156 8.691406 9.703125 8.644531 9.875 8.621094 C 9.824219 8.628906 9.773438 8.632812 9.71875 8.640625 C 9.902344 8.617188 10.085938 8.617188 10.265625 8.640625 C 10.214844 8.632812 10.164062 8.628906 10.109375 8.621094 C 10.273438 8.644531 10.4375 8.6875 10.589844 8.75 C 10.542969 8.730469 10.496094 8.710938 10.449219 8.691406 C 10.570312 8.742188 10.679688 8.800781 10.789062 8.875 C 10.8125 8.886719 10.828125 8.902344 10.851562 8.917969 C 10.929688 8.972656 10.726562 8.8125 10.835938 8.902344 C 10.878906 8.941406 10.925781 8.980469 10.96875 9.023438 C 11.007812 9.0625 11.046875 9.109375 11.085938 9.152344 C 11.179688 9.265625 11.019531 9.054688 11.074219 9.132812 C 11.089844 9.15625 11.101562 9.175781 11.117188 9.195312 C 11.191406 9.300781 11.25 9.414062 11.300781 9.535156 C 11.28125 9.488281 11.261719 9.441406 11.242188 9.394531 C 11.3125 9.554688 11.355469 9.722656 11.382812 9.898438 C 11.375 9.84375 11.367188 9.792969 11.359375 9.742188 C 11.382812 9.921875 11.382812 10.101562 11.359375 10.28125 C 11.367188 10.226562 11.375 10.179688 11.382812 10.125 C 11.359375 10.296875 11.3125 10.46875 11.242188 10.628906 C 11.261719 10.582031 11.28125 10.535156 11.300781 10.488281 C 11.25 10.605469 11.191406 10.71875 11.117188 10.824219 C 11.105469 10.847656 11.089844 10.867188 11.074219 10.886719 C 11.015625 10.964844 11.179688 10.761719 11.085938 10.867188 C 11.046875 10.914062 11.007812 10.957031 10.96875 11 C 10.921875 11.039062 10.882812 11.082031 10.835938 11.117188 C 10.726562 11.210938 10.929688 11.050781 10.851562 11.105469 C 10.828125 11.117188 10.8125 11.132812 10.789062 11.148438 C 10.679688 11.21875 10.570312 11.28125 10.449219 11.328125 C 10.496094 11.308594 10.542969 11.289062 10.589844 11.269531 C 10.4375 11.335938 10.273438 11.375 10.109375 11.402344 C 10.164062 11.394531 10.214844 11.386719 10.265625 11.378906 C 10.179688 11.382812 10.089844 11.390625 10 11.390625 C 9.695312 11.394531 9.398438 11.660156 9.414062 11.976562 C 9.429688 12.292969 9.671875 12.566406 10 12.5625 C 10.515625 12.558594 11.046875 12.402344 11.46875 12.09375 C 11.914062 11.765625 12.242188 11.335938 12.421875 10.8125 C 12.765625 9.839844 12.429688 8.671875 11.628906 8.03125 C 11.1875 7.679688 10.675781 7.476562 10.109375 7.445312 C 9.613281 7.414062 9.09375 7.550781 8.671875 7.808594 C 8.246094 8.066406 7.882812 8.453125 7.679688 8.90625 C 7.441406 9.433594 7.375 9.992188 7.492188 10.5625 C 7.734375 11.71875 8.828125 12.5625 10 12.5625 C 10.304688 12.5625 10.601562 12.292969 10.585938 11.976562 C 10.570312 11.65625 10.328125 11.390625 10 11.390625 Z M 10 11.390625 " />
+              <path style=" stroke:none;fill-rule:nonzero;fill:rgb(0%,0%,0%);fill-opacity:1;"
+                d="M 10 2.507812 C 8.46875 2.515625 6.9375 2.984375 5.6875 3.875 C 4.433594 4.773438 3.484375 6.015625 2.953125 7.464844 C 2.417969 8.921875 2.367188 10.5625 2.792969 12.050781 C 3.203125 13.484375 4.050781 14.804688 5.203125 15.75 C 6.414062 16.75 7.882812 17.347656 9.453125 17.46875 C 10.984375 17.589844 12.554688 17.210938 13.867188 16.414062 C 15.136719 15.640625 16.1875 14.484375 16.796875 13.132812 C 17.132812 12.390625 17.34375 11.621094 17.4375 10.8125 C 17.53125 10.035156 17.484375 9.242188 17.328125 8.472656 C 17.03125 7 16.257812 5.621094 15.171875 4.585938 C 14.089844 3.550781 12.6875 2.835938 11.203125 2.609375 C 10.808594 2.546875 10.40625 2.511719 10 2.507812 C 9.695312 2.507812 9.398438 2.78125 9.414062 3.09375 C 9.429688 3.414062 9.671875 3.679688 10 3.679688 C 10.308594 3.679688 10.617188 3.703125 10.921875 3.742188 C 10.867188 3.734375 10.820312 3.726562 10.765625 3.71875 C 11.375 3.804688 11.972656 3.964844 12.539062 4.203125 C 12.492188 4.1875 12.445312 4.164062 12.398438 4.148438 C 12.714844 4.28125 13.019531 4.4375 13.3125 4.617188 C 13.460938 4.710938 13.601562 4.804688 13.738281 4.90625 C 13.773438 4.929688 13.804688 4.953125 13.839844 4.980469 C 13.855469 4.992188 13.867188 5 13.882812 5.011719 C 13.964844 5.074219 13.761719 4.917969 13.84375 4.984375 C 13.914062 5.035156 13.976562 5.089844 14.042969 5.144531 C 14.304688 5.367188 14.546875 5.605469 14.773438 5.859375 C 14.824219 5.921875 14.875 5.984375 14.929688 6.046875 C 14.953125 6.074219 14.976562 6.105469 15 6.136719 C 15.027344 6.167969 15.085938 6.253906 14.96875 6.097656 C 14.984375 6.117188 15 6.140625 15.015625 6.160156 C 15.117188 6.296875 15.21875 6.4375 15.3125 6.582031 C 15.519531 6.90625 15.699219 7.25 15.851562 7.605469 C 15.832031 7.558594 15.8125 7.511719 15.792969 7.464844 C 16.03125 8.03125 16.195312 8.628906 16.277344 9.238281 C 16.269531 9.183594 16.265625 9.132812 16.257812 9.082031 C 16.335938 9.691406 16.335938 10.3125 16.257812 10.921875 C 16.265625 10.871094 16.269531 10.820312 16.277344 10.765625 C 16.195312 11.375 16.03125 11.972656 15.792969 12.539062 C 15.8125 12.492188 15.832031 12.445312 15.851562 12.398438 C 15.71875 12.714844 15.558594 13.019531 15.378906 13.3125 C 15.289062 13.460938 15.195312 13.601562 15.09375 13.738281 C 15.070312 13.773438 15.042969 13.808594 15.015625 13.84375 C 15.007812 13.855469 14.996094 13.867188 14.984375 13.882812 C 14.921875 13.96875 15.078125 13.765625 15.015625 13.847656 C 14.960938 13.914062 14.90625 13.976562 14.851562 14.042969 C 14.632812 14.304688 14.394531 14.546875 14.140625 14.773438 C 14.078125 14.824219 14.015625 14.875 13.953125 14.929688 C 13.921875 14.953125 13.894531 14.976562 13.863281 15 C 13.828125 15.027344 13.746094 15.089844 13.898438 14.972656 C 13.878906 14.988281 13.859375 15.003906 13.839844 15.019531 C 13.703125 15.121094 13.5625 15.21875 13.417969 15.3125 C 13.089844 15.519531 12.746094 15.699219 12.390625 15.851562 C 12.4375 15.832031 12.484375 15.8125 12.53125 15.792969 C 11.964844 16.03125 11.371094 16.195312 10.761719 16.277344 C 10.8125 16.269531 10.863281 16.265625 10.917969 16.257812 C 10.304688 16.335938 9.6875 16.335938 9.074219 16.257812 C 9.128906 16.265625 9.179688 16.269531 9.230469 16.277344 C 8.621094 16.195312 8.027344 16.03125 7.460938 15.792969 C 7.507812 15.8125 7.554688 15.832031 7.601562 15.851562 C 7.285156 15.71875 6.976562 15.558594 6.683594 15.378906 C 6.539062 15.289062 6.398438 15.195312 6.257812 15.09375 C 6.222656 15.070312 6.191406 15.042969 6.15625 15.019531 C 6.140625 15.007812 6.128906 14.996094 6.113281 14.988281 C 6.03125 14.921875 6.234375 15.078125 6.152344 15.015625 C 6.085938 14.960938 6.019531 14.910156 5.953125 14.855469 C 5.695312 14.632812 5.449219 14.394531 5.226562 14.140625 C 5.171875 14.078125 5.121094 14.015625 5.070312 13.953125 C 5.046875 13.925781 5.019531 13.894531 4.996094 13.863281 C 4.96875 13.828125 4.910156 13.746094 5.027344 13.898438 C 5.011719 13.882812 4.996094 13.859375 4.980469 13.839844 C 4.878906 13.703125 4.78125 13.5625 4.6875 13.417969 C 4.476562 13.09375 4.296875 12.75 4.144531 12.390625 C 4.164062 12.4375 4.183594 12.484375 4.203125 12.53125 C 3.964844 11.96875 3.800781 11.371094 3.71875 10.761719 C 3.726562 10.8125 3.734375 10.867188 3.742188 10.917969 C 3.660156 10.304688 3.660156 9.6875 3.742188 9.078125 C 3.734375 9.128906 3.726562 9.179688 3.71875 9.234375 C 3.800781 8.625 3.964844 8.027344 4.203125 7.460938 C 4.183594 7.507812 4.164062 7.554688 4.144531 7.601562 C 4.28125 7.285156 4.4375 6.976562 4.617188 6.6875 C 4.707031 6.539062 4.800781 6.398438 4.902344 6.257812 C 4.929688 6.226562 4.953125 6.191406 4.980469 6.15625 C 4.988281 6.140625 5 6.128906 5.011719 6.113281 C 5.074219 6.03125 4.917969 6.234375 4.980469 6.152344 C 5.035156 6.085938 5.089844 6.019531 5.144531 5.953125 C 5.363281 5.695312 5.601562 5.449219 5.859375 5.226562 C 5.917969 5.171875 5.980469 5.121094 6.042969 5.070312 C 6.074219 5.046875 6.101562 5.019531 6.132812 4.996094 C 6.167969 4.96875 6.25 4.910156 6.097656 5.027344 C 6.117188 5.011719 6.136719 4.996094 6.15625 4.980469 C 6.292969 4.878906 6.433594 4.78125 6.578125 4.6875 C 6.90625 4.476562 7.25 4.296875 7.605469 4.144531 C 7.558594 4.164062 7.511719 4.183594 7.464844 4.203125 C 8.03125 3.964844 8.625 3.800781 9.234375 3.71875 C 9.183594 3.726562 9.132812 3.734375 9.078125 3.742188 C 9.382812 3.699219 9.691406 3.679688 10 3.679688 C 10.308594 3.679688 10.601562 3.410156 10.585938 3.09375 C 10.570312 2.78125 10.328125 2.507812 10 2.507812 Z M 10 2.507812 " />
+              <path style=" stroke:none;fill-rule:nonzero;fill:rgb(0%,0%,0%);fill-opacity:1;"
+                d="M 10.585938 18.929688 C 10.585938 18.335938 10.585938 17.75 10.585938 17.15625 C 10.585938 17.074219 10.585938 16.992188 10.585938 16.90625 C 10.585938 16.597656 10.316406 16.304688 10 16.320312 C 9.679688 16.332031 9.414062 16.578125 9.414062 16.90625 C 9.414062 17.492188 9.414062 18.085938 9.414062 18.671875 C 9.414062 18.757812 9.414062 18.84375 9.414062 18.929688 C 9.414062 19.234375 9.683594 19.527344 10 19.515625 C 10.320312 19.5 10.585938 19.257812 10.585938 18.929688 Z M 10.585938 3.09375 C 10.585938 2.507812 10.585938 1.914062 10.585938 1.328125 C 10.585938 1.242188 10.585938 1.15625 10.585938 1.070312 C 10.585938 0.765625 10.316406 0.472656 10 0.488281 C 9.679688 0.5 9.414062 0.746094 9.414062 1.070312 C 9.414062 1.664062 9.414062 2.25 9.414062 2.84375 C 9.414062 2.925781 9.414062 3.007812 9.414062 3.09375 C 9.414062 3.402344 9.683594 3.695312 10 3.679688 C 10.320312 3.667969 10.585938 3.421875 10.585938 3.09375 Z M 18.929688 9.414062 C 18.335938 9.414062 17.75 9.414062 17.15625 9.414062 C 17.074219 9.414062 16.992188 9.414062 16.90625 9.414062 C 16.597656 9.414062 16.304688 9.683594 16.320312 10 C 16.332031 10.320312 16.578125 10.585938 16.90625 10.585938 C 17.492188 10.585938 18.085938 10.585938 18.671875 10.585938 C 18.757812 10.585938 18.84375 10.585938 18.929688 10.585938 C 19.234375 10.585938 19.527344 10.316406 19.515625 10 C 19.5 9.679688 19.257812 9.414062 18.929688 9.414062 Z M 18.929688 9.414062 " />
+              <path style=" stroke:none;fill-rule:nonzero;fill:rgb(0%,0%,0%);fill-opacity:1;"
+                d="M 3.09375 9.414062 C 2.507812 9.414062 1.914062 9.414062 1.328125 9.414062 C 1.242188 9.414062 1.15625 9.414062 1.070312 9.414062 C 0.765625 9.414062 0.472656 9.683594 0.488281 10 C 0.5 10.320312 0.746094 10.585938 1.070312 10.585938 C 1.664062 10.585938 2.25 10.585938 2.84375 10.585938 C 2.925781 10.585938 3.007812 10.585938 3.09375 10.585938 C 3.402344 10.585938 3.695312 10.316406 3.679688 10 C 3.667969 9.679688 3.421875 9.414062 3.09375 9.414062 Z M 3.09375 9.414062 " />
+            </g>
+          </svg> Location
+        </button>
+        <button><svg width="20" height="20" viewBox="0 0 20 20" fill="none" xmlns="http://www.w3.org/2000/svg">
+            <circle cx="10" cy="10" r="9.5" fill="url(#paint0_linear_5065_3485)" stroke="#234B9E" />
+            <g clip-path="url(#clip0_5065_3485)">
+              <path
+                d="M13.1114 13.8893H6.88916V13.1115C6.88916 12.5958 7.09402 12.1013 7.45867 11.7366C7.82333 11.372 8.31791 11.1671 8.8336 11.1671H11.1669C11.6826 11.1671 12.1772 11.372 12.5419 11.7366C12.9065 12.1013 13.1114 12.5958 13.1114 13.1115V13.8893ZM10.0003 10.3893C9.69385 10.3893 9.39044 10.329 9.10734 10.2117C8.82425 10.0944 8.56703 9.92257 8.35036 9.70591C8.13369 9.48924 7.96181 9.23201 7.84455 8.94892C7.72729 8.66582 7.66694 8.36241 7.66694 8.05599C7.66694 7.74957 7.72729 7.44615 7.84455 7.16306C7.96181 6.87997 8.13369 6.62274 8.35036 6.40607C8.56703 6.1894 8.82425 6.01753 9.10734 5.90027C9.39044 5.78301 9.69385 5.72266 10.0003 5.72266C10.6191 5.72266 11.2126 5.96849 11.6502 6.40607C12.0878 6.84366 12.3336 7.43715 12.3336 8.05599C12.3336 8.67483 12.0878 9.26832 11.6502 9.70591C11.2126 10.1435 10.6191 10.3893 10.0003 10.3893Z"
+                fill="white" />
+            </g>
+            <defs>
+              <linearGradient id="paint0_linear_5065_3485" x1="10" y1="0" x2="10" y2="20"
+                gradientUnits="userSpaceOnUse">
+                <stop stop-color="#626262" />
+                <stop offset="1" />
+              </linearGradient>
+              <clipPath id="clip0_5065_3485">
+                <rect width="9.33333" height="9.33333" fill="white" transform="translate(5.3335 5.33398)" />
+              </clipPath>
+            </defs>
+          </svg>
+          Login</button>
+      </div>
+
+
+    </div>
+  </nav>
+
+  <div class="carousel">
+    <div id="carouselExampleAutoplaying" class="carousel slide" data-bs-ride="carousel">
+      <div class="carousel-inner">
+        <div class="carousel-item active">
+          <img
+            src="https://originserver-static1-uat.pvrcinemas.com/pvrcms/banners/GiftCard%20sys%20upgrd2_Web%20banner_16678_WbPjpxXY.jpg"
+            class="d-block w-100" alt="...">
+        </div>
+        <div class="carousel-item">
+          <img
+            src="https://originserver-static1-uat.pvrcinemas.com/pvrcms/banners/GiftCard%20sys%20upgrd2_Web%20banner_16678_WbPjpxXY.jpg"
+            class="d-block w-100" alt="...">
+        </div>
+        <div class="carousel-item">
+          <img
+            src="https://originserver-static1-uat.pvrcinemas.com/pvrcms/banners/GiftCard%20sys%20upgrd2_Web%20banner_16678_WbPjpxXY.jpg"
+            class="d-block w-100" alt="...">
+        </div>
+      </div>
+      <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleAutoplaying"
+        data-bs-slide="prev">
+        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Previous</span>
+      </button>
+      <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleAutoplaying"
+        data-bs-slide="next">
+        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Next</span>
+      </button>
+    </div>
+  </div>
+
+  <nav class="nav2">
+    <p>Quick Book</p>
+    <div class="nav2button">
+      <a href="#"><button>Movie</button></a>
+      <a href="#"><button>Cinema</button></a>
+    </div>
+
+
+    <input type="text" placeholder="Select Movie">
+    <input type="text" placeholder="Select Cinema">
+    <input type="text" placeholder="Select Date">
+    <input type="text" placeholder="Select Time ">
+    <button type="button" class="btn btn-warning">Book</button></a>
+  </nav>
+
+  <div class="movies">
+    <div class="NowShowing">
+      <h3>Now Showing</h3>
+    </div>
+    <div class="right">
+      <p><input type="checkbox" name="With Subtitle" id="">With Subtitle</p>
+      <!-- <a href="#"></a> -->
+      <a href="#">All Geners <svg width="10" height="6" viewBox="0 0 10 6" fill="none"
+          xmlns="http://www.w3.org/2000/svg">
+          <path
+            d="M4.99999 3.78145L8.29999 0.481445L9.24266 1.42411L4.99999 5.66678L0.757324 1.42411L1.69999 0.481445L4.99999 3.78145Z"
+            fill="black" />
+        </svg></a>
+      <a href="#">All Languages <svg width="10" height="6" viewBox="0 0 10 6" fill="none"
+          xmlns="http://www.w3.org/2000/svg">
+          <path
+            d="M4.99999 3.78145L8.29999 0.481445L9.24266 1.42411L4.99999 5.66678L0.757324 1.42411L1.69999 0.481445L4.99999 3.78145Z"
+            fill="black" />
+        </svg></a>
+    </div>
+
+
+
+  </div>
+  </div>
+
+  <hr>
+
+  <div class="movie-cards">
+    <div class="card" style="width: 12rem;">
+      <img src="https://originserver-static1-uat.pvrcinemas.com/pvrcms/movie_v/29832_BQBnvtuo.jpg" class="card-img-top"
+        alt="...">
+      <div class="card-body">
+        <h6 class="card-title">THE GREATEST OF ALL TIME</h6>
+        <p class="card-text">U/A . Action <br> Telugu,Tamil </p>
+        <a href="#" class="btn btn-warning">Book Now</a>
+      </div>
+    </div>
+
+    <div class="card" style="width: 12rem;">
+      <img src="https://originserver-static1-uat.pvrcinemas.com/pvrcms/movie_v/29365_Aq1OqSKM.jpg" class="card-img-top"
+        alt="...">
+      <div class="card-body">
+        <h6 class="card-title">SARIPODHA SANIVAARAM</h6>
+        <p class="card-text">U/A . Action <br> Telugu,Tamil </p>
+        <a href="#" class="btn btn-warning">Book Now</a>
+      </div>
+    </div>
+
+
+
+    <div class="card" style="width: 12rem;">
+      <img src="https://originserver-static1-uat.pvrcinemas.com/pvrcms/movie_v/29663_9WVqdXII.jpg" class="card-img-top"
+        alt="...">
+      <div class="card-body">
+        <h6 class="card-title">STREE 2 SARKATE KA AATANK</h6>
+        <p class="card-text">U/A . Action <br> Telugu,Tamil </p>
+        <a href="#" class="btn btn-warning">Book Now</a>
+      </div>
+    </div>
+
+    <div class="card" style="width: 12rem;">
+      <img src="https://originserver-static1-uat.pvrcinemas.com/pvrcms/movie_v/31057_cGJwgkNA.jpg" class="card-img-top"
+        alt="...">
+      <div class="card-body">
+        <h6 class="card-title">35-CHINNA KATHA KADHU</h6>
+        <p class="card-text">U/A . Action <br> Telugu,Tamil </p>
+        <a href="#" class="btn btn-warning">Book Now</a>
+      </div>
+    </div>
+
+    <div class="card" style="width: 12rem;">
+      <img src="https://originserver-static1-uat.pvrcinemas.com/pvrcms/movie_v/28536_FucxX9at.jpg" class="card-img-top"
+        alt="...">
+      <div class="card-body">
+        <h6 class="card-title">BEETLEJUICE BEETLEJUICE</h6>
+        <p class="card-text">U/A . Action <br> Telugu,Tamil </p>
+        <a href="#" class="btn btn-warning">Book Now</a>
+      </div>
+    </div>
+  </div>
+  <div class="movie-cards">
+    <div class="card" style="width: 12rem;">
+      <img src="https://originserver-static1-uat.pvrcinemas.com/pvrcms/movie_v/31110_BQA4WFIu.jpg" class="card-img-top"
+        alt="...">
+      <div class="card-body">
+        <h6 class="card-title">URUKU PATELA</h6> <br>
+        <p class="card-text">U/A . Action <br> Telugu </p>
+        <a href="#" class="btn btn-warning">Book Now</a>
+      </div>
+    </div>
+
+    <div class="card" style="width: 12rem;">
+      <img src="https://originserver-static1-uat.pvrcinemas.com/pvrcms/movie_v/29943_N8z6z0Jh.jpg" class="card-img-top"
+        alt="...">
+      <div class="card-body">
+        <h6 class="card-title">KHEL KHEL MEIN</h6> <br>
+        <p class="card-text">U/A . Comedy <br> Hindi </p>
+
+        <a href="#" class="btn btn-warning">Book Now</a>
+      </div>
+    </div>
+
+    <div class="card" style="width: 12rem;">
+      <img src="	https://originserver-static1-uat.pvrcinemas.com/pvrcms/movie_v/30876_PYZGG5gP.jpg" class="card-img-top"
+        alt="...">
+      <div class="card-body">
+        <h6 class="card-title">COMMITTEE KURROLLU</h6>
+        <p class="card-text">U/A . Drama <br> Telugu </p>
+        <a href="#" class="btn btn-warning">Book Now</a>
+      </div>
+    </div>
+
+    <!-- <div class="card" style="width: 12rem;">
+          <img src="https://originserver-static1-uat.pvrcinemas.com/pvrcms/movie_v/28563_AIg0DHbk.jpg" class="card-img-top" alt="...">
+          <div class="card-body">
+            <h6 class="card-title">DEADPOOL AND WOLVERINE</h6>
+            <p class="card-text">U/A . Action <br> English,Telugu </p>
+            <a href="#" class="btn btn-warning">Book Now</a>
+          </div>
+        </div> -->
+
+    <div class="card" style="width: 12rem;">
+      <img src="https://originserver-static1-uat.pvrcinemas.com/pvrcms/movie_v/28563_AIg0DHbk.jpg" class="card-img-top"
+        alt="...">
+      <div class="card-body">
+        <h6 class="card-title">DEADPOOL AND WOLVERINE</h6> 
+        <p class="card-text">U/A . Action <br> English,Telugu </p>
+        <a href="#" class="btn btn-warning">Book Now</a>
+      </div>
+    </div>
+
+    <div class="card" style="width: 12rem;">
+      <img src="https://originserver-static1-uat.pvrcinemas.com/pvrcms/movie_v/28536_FucxX9at.jpg" class="card-img-top"
+        alt="...">
+      <div class="card-body">
+        <h6 class="card-title">STRANGE DARLING</h6> <br>
+        <p class="card-text">A . Thriller <br> English </p>
+        <a href="#" class="btn btn-warning">Book Now</a>
+      </div>
+    </div>
+  </div>
+
+
+
+  <div class="movie-cards">
+    <div class="card" style="width: 12rem;">
+      <img src="	https://originserver-static1-uat.pvrcinemas.com/pvrcms/movie_v/30940_5vZo9UQL.jpg" class="card-img-top"
+        alt="...">
+      <div class="card-body">
+        <h6 class="card-title">AAY...MEM FRIENDS ANDI</h6> <br> 
+        <p class="card-text">U/A . Comedy <br> Telugu </p>
+        <a href="#" class="btn btn-warning">Book Now</a>
+      </div>
+    </div>
+
+    <div class="card" style="width: 12rem;">
+      <img src="https://originserver-static1-uat.pvrcinemas.com/pvrcms/movie_v/28708_7xfC7EqH.jpg" class="card-img-top"
+        alt="...">
+      <div class="card-body">
+        <h6 class="card-title">KUNG FU PANDA 4</h6> <br> <br>
+        <p class="card-text">U . Animation <br> English </p>
+
+        <a href="#" class="btn btn-warning">Book Now</a>
+      </div>
+    </div>
+
+    <div class="card" style="width: 12rem;">
+      <img src="		https://originserver-static1-uat.pvrcinemas.com/pvrcms/movie_v/28550_Rzu1fuJm.jpg" class="card-img-top"
+        alt="...">
+      <div class="card-body">
+        <h6 class="card-title">DESPICABLE ME 4</h6> <br> <br>
+        <p class="card-text">U . Animation <br> English </p>
+        <a href="#" class="btn btn-warning">Book Now</a>
+      </div>
+    </div>
+
+    <!-- <div class="card" style="width: 12rem;">
+              <img src="https://originserver-static1-uat.pvrcinemas.com/pvrcms/movie_v/28563_AIg0DHbk.jpg" class="card-img-top" alt="...">
+              <div class="card-body">
+                <h6 class="card-title">DEADPOOL AND WOLVERINE</h6>
+                <p class="card-text">U/A . Action <br> English,Telugu </p>
+                <a href="#" class="btn btn-warning">Book Now</a>
+              </div>
+            </div> -->
+
+    <div class="card" style="width: 12rem;">
+      <img src="	https://originserver-static1-uat.pvrcinemas.com/pvrcms/movie_v/28556_Jern5h50.jpg" class="card-img-top"
+        alt="...">
+      <div class="card-body">
+        <h6 class="card-title">INSIDE OUT 2</h6> <br> <br>
+        <p class="card-text">U . Animation <br> English </p>
+        <a href="#" class="btn btn-warning">Book Now</a>
+      </div>
+    </div>
+
+    <div class="card" style="width: 12rem;">
+      <img src="	https://originserver-static1-uat.pvrcinemas.com/pvrcms/movie_v/30539_wOeVAP41.jpg" class="card-img-top"
+        alt="...">
+      <div class="card-body">
+        <h6 class="card-title">PADATIK</h6> <br> <br>
+        <p class="card-text">U/A . Biography <br> Bengali </p>
+        <a href="#" class="btn btn-warning">Book Now</a>
+      </div>
+    </div>
+  </div>
+ 
+  
+  <div class="Experiences">
+    <p>Experiences</p> <br>
+    <div class="card" style="width: 18rem;">
+      <img src="	https://originserver-static1-uat.pvrcinemas.com/pvrcms/exp_sqr/4DX_ZriyhTHF.jpg" class="card-img-top" alt="...">
+      <!-- <div class="card-body"> -->
+        <!-- <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p> -->
+      <!-- </div> -->
+    </div>
+
+    <div class="card" style="width: 18rem;">
+      <img src="	https://originserver-static1-uat.pvrcinemas.com/pvrcms/exp_sqr/play-house_ivLFFglG.jpg" class="card-img-top" alt="...">
+      <!-- <div class="card-body"> -->
+        <!-- <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p> -->
+      <!-- </div> -->
+    </div>
+    </div>
+
+
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
+    crossorigin="anonymous"></script>
+</body>
+
+</html>

@@ -2,55 +2,59 @@
 <html lang="en">
 
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Netflix Clone</title>
-    <link rel="stylesheet" href="styles.css">
-    <style>
-        body {
-  margin: 0;
-  font-family: Arial, sans-serif;
-  background-color: #000000;
-  color: #fff;
-}
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Netflix Clone</title>
+  <link rel="stylesheet" href="styles.css">
+  <style>
+    body {
+      margin: 0;
+      font-family: Arial, sans-serif;
+      background-color: #000000;
+      color: #fff;
+    }
 
-header {
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  padding: 10px 100px;
-  background-color: #000000;
-  background-image: url(C:\Users\vinayyadav\Downloads\Netflix-Background.jpg);
-  background-image: url('path-to-your-image.jpg'); /* Path to your background image */
-  background-size: cover; /* Cover the entire header element */
-  background-position: center; /* Center the image */
-  background-repeat: no-repeat; /* Prevent repeating the image */
-}
+    header {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      padding: 10px 100px;
+      background-color: #000000;
+      background-image: url(C:\Users\vinayyadav\Downloads\Netflix-Background.jpg);
+      background-image: url('path-to-your-image.jpg');
+      /* Path to your background image */
+      background-size: cover;
+      /* Cover the entire header element */
+      background-position: center;
+      /* Center the image */
+      background-repeat: no-repeat;
+      /* Prevent repeating the image */
+    }
 
-img {
-  
-  height: 100px;
-  width: 130px;
-}
+    img {
 
-nav ul {
-  list-style: none;
-  display: flex;
-  gap: 15px;
-}
+      height: 100px;
+      width: 130px;
+    }
+
+    nav ul {
+      list-style: none;
+      display: flex;
+      gap: 15px;
+    }
 
 
-.lang{
-  height: 30px;
-  width: 70px;
-  border-radius: 5px;
-  /* display: flex;
+    .lang {
+      height: 30px;
+      width: 70px;
+      border-radius: 5px;
+      /* display: flex;
   justify-content: flex-end; */
-  
-  
-}
 
-/* .user{
+
+    }
+
+    /* .user{
   background-color: red;
 
   /* color: white;   
@@ -58,141 +62,155 @@ nav ul {
   border-radius: 5px;
 } */
 
-.hero {
-  /* display: flex; */
-  /* text-align: center; */
-  /* justify-content: center; */
-  padding: 100px 20px; 
-  /* background-image: url("C:\Users\vinay yadav\Downloads\Netflix-Background.jpg"); */
-  /* background-size: cover; */
-  /* background-position: center; */
-  text-align: center;
-  background-image: url(https://assets.nflxext.com/ffe/siteui/vlv3/20bf1f4d-1c73-48fd-8689-310d6dd80efc/81bdc063-cb8f-4afe-8a02-a3131ca4ef5e/IN-en-20240812-POP_SIGNUP_TWO_WEEKS-perspective_WEB_7998f3b6-63e3-424a-8328-550cf777ddce_large.jpg);
-  /* margin: 10px; */
-  margin-bottom: 5px;
-}
+    .hero {
+      /* display: flex; */
+      /* text-align: center; */
+      /* justify-content: center; */
+      padding: 100px 20px;
+      /* background-image: url("C:\Users\vinay yadav\Downloads\Netflix-Background.jpg"); */
+      /* background-size: cover; */
+      /* background-position: center; */
+      text-align: center;
+      background-image: url(https://assets.nflxext.com/ffe/siteui/vlv3/20bf1f4d-1c73-48fd-8689-310d6dd80efc/81bdc063-cb8f-4afe-8a02-a3131ca4ef5e/IN-en-20240812-POP_SIGNUP_TWO_WEEKS-perspective_WEB_7998f3b6-63e3-424a-8328-550cf777ddce_large.jpg);
+      /* margin: 10px; */
+      margin-bottom: 5px;
+    }
 
-.email{
-  border: 1px solid rgb(255, 255, 255);
-  color: white;
-  
-  background: transparent;
-  border-color: #ffffff;
-}
+    .email {
+      border: 1px solid rgb(255, 255, 255);
+      color: white;
+
+      background: transparent;
+      border-color: #ffffff;
+    }
 
 
 
-.hero h1 {
-  font-size: 48px;
-  margin-bottom: 10px;
-  /* height: 400px; */
-}
+    .hero h1 {
+      font-size: 48px;
+      margin-bottom: 10px;
+      /* height: 400px; */
+    }
 
-.hero p {
-  font-size: 24px;
-  margin-bottom: 30px;
-}
+    .hero p {
+      font-size: 24px;
+      margin-bottom: 30px;
+    }
 
-/* .hero button, .email {
+    /* .hero button, .email {
   padding: 10px 20px;
   font-size: 18px;
   /* background-color: #e50914; */
-  /* border: none;
+    /* border: none;
   color: #ffffff;
   cursor: pointer;
   border-radius: 5px;
-} */ 
+} */
 
-.h1{
-  display: flex; 
-  justify-content: center;
-  text-align: center;
-  display: flex;
-  justify-content: space-between;
-  height: 400px;
+    .h1 {
+      display: flex;
+      justify-content: center;
+      text-align: center;
+      display: flex;
+      justify-content: space-between;
+      height: 400px;
 
-}
+    }
 
-.content {
-  padding: 20px;
-}
+    .content {
+      padding: 20px;
+    }
 
-.movie-list {
-  display: flex;
-  gap: 10px;
-  overflow-x: auto;
-}
+    .movie-list {
+      display: flex;
+      gap: 10px;
+      overflow-x: auto;
+    }
 
-.movie-item {
-  width: 150px;
-  height: 200px;
-  background-color: #333;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  border-radius: 5px;
-  cursor: pointer;
-}
+    .movie-item {
+      width: 150px;
+      height: 200px;
+      background-color: #333;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      border-radius: 5px;
+      cursor: pointer;
+    }
 
-footer {
-  text-align: center;
-  padding: 10px;
-  background-color: #141414;
-}
+    footer {
+      text-align: center;
+      padding: 10px;
+      background-color: #141414;
+    }
 
-.img1{
-  /* height: 200px;
+    .img1 {
+      /* height: 200px;
   width: 200px; */
-  /* image-rendering: pixelated; */
-}
-    </style>
+      /* image-rendering: pixelated; */
+    }
+  </style>
 </head>
 
 <body>
-    <header>
-        
-        <div><img
-                src="data:image/png;base64,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"
-                alt="" srcset=""></div>
-      <div class="bgi">
-        <div class="user">
-            <select class="lang">
-                <option value="">English</option>
-                <option value="">Hindi</option>
-                <option value="">Malayalam</option>
-            </select>
-            <button style="height: 30px;width:70px ; background-color: red;color: white; border: none;border-radius: 5px;">Sign In</button>
-        </div>
-    </header>
-    <main>
-        <section class="hero">
-            <h1>Unlimited movies, TV shows and more</h1>
-            <p>Watch anywhere. Cancel anytime.</p>
-            <p><h3>Ready to watch? Enter your email to create or restart your membership.</h3></p>
-            <input class="email" type="text" placeholder="Enter Email" >
-            <button style="background-color: red;">Get Started ></button>
-        </section>
-      </div>  
+  <header>
+
+    <div><img
+        src="data:image/png;base64,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"
+        alt="" srcset=""></div>
+    <div class="bgi">
+      <div class="user">
+        <select class="lang">
+          <option value="">English</option>
+          <option value="">Hindi</option>
+          <option value="">Malayalam</option>
+        </select>
+        <button
+          style="height: 30px;width:70px ; background-color: red;color: white; border: none;border-radius: 5px;">Sign
+          In</button>
+      </div>
+  </header>
+  <main>
+    <section class="hero">
+      <h1>Unlimited movies, TV shows and more</h1>
+      <p>Watch anywhere. Cancel anytime.</p>
+      <p>
+      <h3>Ready to watch? Enter your email to create or restart your membership.</h3>
+      </p>
+      <input class="email" type="text" placeholder="Enter Email">
+      <button style="background-color: red;">Get Started ></button>
+    </section>
+    </div>
     <header class="h1">
       <div>
-        <p><h1 style="font-size: 40px;">Enjoy on your TV</h1></p></p>
-        <p><h3 style>Watch on smart TVs, PlayStation, Xbox, Chromecast, Apple TV, Blu-ray players and more.</h3></p>
-      </div> 
+        <p>
+        <h1 style="font-size: 40px;">Enjoy on your TV</h1>
+        </p>
+        </p>
+        <p>
+        <h3 style>Watch on smart TVs, PlayStation, Xbox, Chromecast, Apple TV, Blu-ray players and more.</h3>
+        </p>
+      </div>
       <div class="img1">
         <p><img src="https://assets.nflxext.com/ffe/siteui/acquisition/ourStory/fuji/desktop/tv.png" alt=""></p>
-      </div> 
+      </div>
     </header>
-        <header class="h1">
-          <div class="img1">
-            <p><img src="https://assets.nflxext.com/ffe/siteui/acquisition/ourStory/fuji/desktop/mobile-0819.jpg" alt=""  ></p>
-           </div> 
-          <div>
-            <p><h1 style="font-size: 40px;">Download your shows to watch offline</h1></p>
-            <p><h4>Save your favourites easily and always have something to watch.</h4></p>
-          </div> 
-          
-          </header> 
-            <!-- <div class="movie-list">
+    <header class="h1">
+      <div class="img1">
+        <p><img src="https://assets.nflxext.com/ffe/siteui/acquisition/ourStory/fuji/desktop/mobile-0819.jpg" alt="">
+        </p>
+      </div>
+      <div>
+        <p>
+        <h1 style="font-size: 40px;">Download your shows to watch offline</h1>
+        </p>
+        <p>
+        <h4>Save your favourites easily and always have something to watch.</h4>
+        </p>
+      </div>
+
+    </header>
+    <!-- <div class="movie-list">
                 Movie items will go here
                 <div class="movie-item"> Movie 1</div>
                 <div class="movie-item">Movie 2</div>
@@ -205,11 +223,11 @@ footer {
                 <div class="movie-item">Movie 9</div>
                 <div class="movie-item">Movie 10</div>
             </div> -->
-        </section>
-    </main>
-    <footer>
-        <p>&copy; 2024 Netflix Clone</p>
-    </footer>
+    </section>
+  </main>
+  <footer>
+    <p>&copy; 2024 Netflix Clone</p>
+  </footer>
 </body>
 
 </html>
