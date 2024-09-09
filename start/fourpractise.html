@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <style>
+    .contain{
+      width: 1000px;
+      height: auto;
+      margin: auto;
+      
+    }
+
+    .one{
+      width:1000px;
+      height: 100px;
+      background-color: pink;
+    }
+    .two{
+      width: 300px;
+      height: 200px;
+      background-color: red;
+      float:left;
+    }
+    .three{
+      width:300px;
+      height: 200px;
+      background-color: green;
+      float:left;
+    }
+    .four{
+      width: 400px ;
+      height: 200px;
+      background-color: blue;
+      float:left;
+    }
+
+    @media screen and (max-width:999px) {
+      .contain{
+        width: 100%;
+      }
+      .one{
+        width:100%
+      }
+      .two{
+        width:30%
+      }
+      .three{
+        width:30%
+      }
+      .four{
+        width:40%
+      }
+      
+    }
+
+    @media screen and (max-width:800px) {
+      .contain{
+        width: 100%;
+      }
+      .one{
+        width:100%
+      }
+      .two{
+        width:50%
+      }
+      .three{
+        width:50%
+      }
+      .four{
+        width:100%
+      }
+      
+    }
+
+    @media screen and (max-width:600px) {
+      .contain{
+        width: 100%;
+      }
+      .one{
+        width:100%
+      }
+      .two{
+        width:100%
+      }
+      .three{
+        width:100%
+      }
+      .four{
+        width:100%
+      }
+      
+    }
+
+
+  </style>
+</head>
+<body>
+  <div class="contain">
+    
+    <div class="one">One</div>
+    <div class="two">Two</div>
+    <div class="three">Three</div>
+    <div class="four">Four</div>
+
+  </div>
+</body>
+</html>
