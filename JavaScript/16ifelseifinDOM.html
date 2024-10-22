@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+</head>
+<style>
+  #Marks, #result{
+    color:rgb(217, 10, 10)
+  }
+ 
+</style>
+<body>
+
+  <h1>If else if</h1>
+  <table border="1px" solid>
+    <tr>
+      <td>Marks</td>
+      <td>Result</td>
+    </tr>
+    <tr >
+      <td id="Marks"></td>
+      <td id="result"></td>
+    </tr>
+
+  </table>
+      <script>
+        let marks = prompt("Enter marks here")
+     
+        let result
+        if (marks < 35) {
+          result = "Fail";
+        }
+        else if (marks > 35 && marks < 50) {
+          result ="Third class"
+        }
+        else if (marks > 50 && marks < 60) {
+          result = "Second class"
+        }
+        else if (marks > 60 && marks < 70) {
+          result = "First class"
+        }
+        else if (marks > 70 && marks < 100) {
+          result ="Distinction"
+        }
+        else {
+          result ="Invalid entry"
+        }
+
+        document.getElementById("Marks").innerHTML=marks
+        document.getElementById("result").innerHTML=result
+        
+
+
+
+      </script>
+    
+</body>
+
+</html>

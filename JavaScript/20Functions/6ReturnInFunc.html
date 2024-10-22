@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+</head>
+<body>
+  <script>
+    function Demo()
+    {
+      return 100;
+    }
+    Demo()
+    document.write(Demo()+"<br>")
+
+    //Using parameters
+    function Demo1(name)
+    {
+      return name;
+    }
+    let print=Demo1(prompt("Enter a name"))
+    document.write(print+"<br>")
+
+    function Demo2(a,b)
+    {
+      return a+b;
+    }
+    let print1=Demo2(prompt("Enter a num"),prompt("Enter a num"))
+    document.write(print1+" <br>")
+
+
+    //using arrow func
+    const arrow=(a,b)=>{
+      return a*b;
+    }
+    document.write(arrow(prompt("Enter a num"),prompt("Enter a num")))
+  </script>
+</body>
+</html>

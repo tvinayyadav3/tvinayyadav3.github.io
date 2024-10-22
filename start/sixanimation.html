@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <style>
+    @keyframes anim{
+      from{left:0px; top:0px}
+      to{left:900px;top:900px}
+    }
+    @keyframes anim{
+      from{left:100px; top:0px}
+      to{right:900px;top:900px}
+    }
+
+    #box{
+      width: 100px;
+      height: 100px;
+      border-radius: 100px;
+      background-color: red;
+      animation: anim 5s;
+      position: relative;
+      animation-iteration-count: infinite;
+    }
+  </style>
+</head>
+<body>
+  <div id="box"></div>
+</body>
+</html>

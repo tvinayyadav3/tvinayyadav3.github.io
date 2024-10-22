@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+</head>
+<body>
+  <h1>Arrays</h1>
+  <h3 id="txt"></h3>
+
+  <script>
+    let students=["Apple","Ball","Cat","Dog"]
+
+    document.getElementById("txt").innerHTML=students[1]
+
+    students.push("Elephant") //for adding element at last index
+    document.getElementById("txt").innerHTML=students[4] 
+
+    document.getElementById("txt").innerHTML=students.pop()  //for removing the element from array that is last index
+
+    students.unshift("Fish")
+    document.getElementById("txt").innerHTML=students[0]  //for adding an element at 0 index
+
+    students.shift() //for removing element from 0 index and such that all others move to its preceding indexes
+    document.getElementById("txt").innerHTML=students
+
+    students.splice(2,1,"king","queen","neen")
+    document.getElementById("txt").innerHTML=students
+
+    students.reverse()
+    document.getElementById("txt").innerHTML=students
+
+    students.sort()
+    document.getElementById("txt").innerHTML=students
+
+    const data=students.slice(1,3)
+    document.getElementById("txt").innerHTML=data
+  </script>
+</body>
+</html>

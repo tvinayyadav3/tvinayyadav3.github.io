@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+</head>
+
+<body>
+  <h1>Intrest Calculator</h1>
+  <table border="1px">
+    <tr>
+      <td>Principle Amount</td>
+      <td>Rate of Intrest</td>
+      <td>Output</td>
+    </tr>
+    <tr>
+      <Script>
+        let pa = prompt("Enter Amount")
+        let rate = prompt("Enter rate")
+
+        document.write("<td>")
+        document.write(pa)
+        document.write("</td>")
+
+        document.write("<td>")
+        document.write(rate)
+        document.write("</td>")
+
+        let output = pa * rate / 100;
+
+        document.write("<td>")
+        document.write(output)
+        document.write("</td>")
+      </Script>
+    </tr>
+  </table>
+</body>
+
+</html>

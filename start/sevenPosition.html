@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <style>
+    .one{
+      background-color: yellow;
+      height: 200px;
+      width: 1000px;
+    }
+    .two{
+      background-color: green;
+      height: 200px;
+      width: 1000px;
+      /*By default position is static*/
+      position: relative;  
+       /*moving my position with respect to my own position  (I will not disturb other tags or divs  */
+      position: absolute;  
+       /*moving my position with recpt to my owner position (i will or may disturb other divs*/ /*thired div moved up in thkis case*/
+      top: 100px;
+      left: 100px;
+    }
+    .three{
+      background-color: red;
+      height: 200px;
+      width: 1000px;
+    }
+  </style>
+</head>
+<body>
+  <div class="one"></div>
+  <div class="two"></div>
+  <div class="three"></div>
+  <div class="four"></div>
+</body>
+</html>

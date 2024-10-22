@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+</head>
+<body>
+  <h1>Tax Calc</h1>
+  <p id="tax"></p>
+
+  <table border="1px" solid black>
+    <tr>
+      <th>Salary</th>
+      <th>Tax Amount</th>
+      <th>Take Home Salary</th>
+    </tr>
+    <tr>
+      <td id="salary"></td>
+      <td id="taxx"></td>
+      <td id="thsalary"></td>
+    </tr>
+  </table>
+
+  <script>
+    let salary=prompt("Enter Salary")
+     let Tax//prompt("Enter tax amount")
+   
+
+    if(salary<=30000)
+  {
+    tax=0
+  }
+  else if(salary>30000 && salary<=40000)
+  {
+    tax=salary*0.05;
+  }
+  else if(salary>40000 && salary<=50000)
+  {
+    tax=salary*0.10;
+  }
+  else if(salary>50000)
+  {
+    tax=salary*0.12;
+  }
+  let takehomesalary=salary-tax
+
+    document.getElementById("salary").innerHTML=salary
+    document.getElementById("taxx").innerHTML=tax
+    document.getElementById("thsalary").innerHTML=takehomesalary
+  </script>
+</body>
+</html>
