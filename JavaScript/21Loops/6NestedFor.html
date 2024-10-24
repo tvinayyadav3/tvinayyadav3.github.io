@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+</head>
+
+<body>
+  <h1>Nested loop</h1>
+  <script>
+    let space=(4-1)*2;
+    for (i = 1; i <= 4; i++) {
+      for (j = 1; j <= i; j++) {
+        document.write("*");
+      }
+      for(k=i;k<=space;k++)
+      {
+        document.write(" ");
+        
+      }space--;
+      for(l=1;i<=i;l++)
+      {
+        document.write("*");
+      }
+      document.write("<br>")
+    }
+
+  </script>
+</body>
+
+</html>
