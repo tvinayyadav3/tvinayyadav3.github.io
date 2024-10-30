@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+</head>
+<body>
+  <h1>Value & innerHTML</h1>
+  <h2 id="h2">Hello</h2>
+  <input type="text" name="" id="name">
+  <!-- <input type="text" name="" id="python">
+  <input type="text" name="" id="aws"> -->
+  <button onclick="demo('java')">Java</button>
+  <button onclick="demo('pyhton')">Python</button>
+  <button onclick="demo('aws')">Aws</button>
+  <script>
+    function demo(course)
+    {
+      const x=document.getElementById('name').value=course
+      // const x1=document.querySelector('java').value
+      // document.write("<input type='text' id="+course+"> ")
+      const x1=document.getElementById('h2').innerHTML=course
+    }
+  </script>
+</body>
+</html>
