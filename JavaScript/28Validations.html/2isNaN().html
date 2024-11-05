@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+</head>
+<body>
+  <form action="" onsubmit="demo()">
+    <input type="text" placeholder="age" id="age"><br>
+    <input type="submit">
+  </form>
+
+  <script>
+    function demo()
+    {
+      const x=document.getElementById("age").value;
+      if(isNaN(x)){
+        alert("Age should be number");
+      }
+      else{
+        alert("ThankYOu");
+      }
+      
+    }
+  </script>
+</body>
+</html>

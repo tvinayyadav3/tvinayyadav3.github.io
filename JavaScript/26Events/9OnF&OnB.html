@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+</head>
+
+<body>
+  <input type="text" placeholder="Enter Name" id="fname" onfocus="demo()" onblur="demo1()">
+  <span id="txt"></span>
+
+  <script>
+    // function demo()
+    // {
+    //   document.getElementById("txt").innerHTML="Enter Name"
+    // }
+
+    function demo1() {
+      const x = document.getElementById("fname").value = "Field should not be empty";
+      if (x == "") {
+        document.getElementById("txt").innerHTML = "Field should not be empty";
+        document.getElementById("fname").style.color = red;
+      }
+      else {
+        document.getElementById("txt").innerHTML = "Thankyou " + x;
+        document.getElementById("fname").style.color =green;
+      }
+    }
+  </script>
+</body>
+
+</html>

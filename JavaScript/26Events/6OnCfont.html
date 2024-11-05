@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+</head>
+<body>
+  <p class="p">Hello i am dealing with font</p>
+  <select  id="size" onchange="demo()">
+    <option >12px</option>
+    <option >20px</option>
+    <option >30px</option>
+    <option >40px</option>
+    <option >50px</option>
+    <option >100px</option>
+  </select>
+
+  <script>
+    function demo()
+    {
+      const x=document.getElementById("size").value;
+      document.querySelector(".p").style.fontSize=x;
+    }
+    </script>
+</body>
+</html>

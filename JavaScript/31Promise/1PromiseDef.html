@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+</head>
+<body>
+  <h1>Promise</h1>
+  <p>
+    It is an object that represents the eventual completion or failure of an asynchronous operation.It is used for andling asynchronous operations, such as API calls or reading files, in more organized and readale way.
+  </p>
+  <p>A JS promise object can be</p>
+  <li>
+    <ol>Pending</ol>
+    <ol>FulFilled</ol>
+    <ol>Rejected</ol>
+  </li>
+  <p>Syntax: let promise =new promise(function(resolve,reject))</p>
+  <p>
+    eg:
+    const promise=new Promise(function(resolve,reject){
+      var x='javascript'
+      var y='javascript1'
+      if(x==y)
+    {
+      return resolve()
+    }else{
+      return reject()
+    }
+    })
+    promise.then((x)=>document.write("Successful"))
+    .catch((err)=>document.write("Error"))
+  </p>
+</body>
+</html>

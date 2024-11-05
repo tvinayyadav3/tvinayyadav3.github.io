@@ -5,15 +5,11 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Document</title>
 </head>
-<body>
-  <h1>Input</h1>
-  <input type="text" name="" id="fname">
-  <button onclick="demo()">getValue</button>
-  <script> 
+<body onload="setTimeout('demo()',5000)">
+  <script>
     function demo()
     {
-      const x=document.getElementById('fname').value
-      alert(x)
+      alert('Welcome')
     }
   </script>
 </body>

@@ -6,15 +6,16 @@
   <title>Document</title>
 </head>
 <body>
-  <h1>Input</h1>
-  <input type="text" name="" id="fname">
-  <button onclick="demo()">getValue</button>
-  <script> 
+  <h2 id="txt"></h2>
+  <script>
     function demo()
     {
-      const x=document.getElementById('fname').value
-      alert(x)
+      const obj =new Date()
+      const time=obj.toLocaleTime String()
+      document.getElementById("txt").innerHTML=time;
+
     }
+    setInterval('demo()',1000);
   </script>
 </body>
 </html>

@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+</head>
+<body>
+  <input type="text" placeholder="Enter Name" id="fname" onfocus="demo()" onblur="demo1()">
+  <span id="txt"></span>
+
+  <script>
+    function demo()
+    {
+      document.getElementById("txt").innerHTML="Enter Name"
+    }
+
+    function demo1()
+    {
+      document.getElementById("txt").innerHTML=""
+    }
+  </script>
+</body>
+</html>
